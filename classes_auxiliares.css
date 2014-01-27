@@ -1,0 +1,233 @@
+/* ==========================================================================
+@Code by Jadson Moreira | www.jadsonmoreira.com | @inforsis
+@Description: Biblioteca de classes reutilizáveis para o desenvolvimento front end
+@versão: 1.0
+@since december/2012
+========================================================================== */
+
+/* ==========================================================================
+	Background
+========================================================================== */
+.no-bg {
+	background: none !important;
+}
+
+/* ==========================================================================
+	valores para margem, baseados no layout do projeto
+========================================================================== */
+.mg-all-default {
+	margin:11px !important;
+}
+.mg-bottom-default {
+	margin-bottom:11px !important;
+}
+.mg-top-default {
+	margin-top:11px !important;
+}
+.mg-left-default {
+	margin-left:11px !important;
+}
+.mg-right-default {
+	margin-right:11px !important;
+}
+.no-margin {
+	margin: 0 !important;
+}
+.no-margin-top {
+	margin-top: 0 !important;
+}
+.no-margin-right {
+	margin-right: 0 !important;
+}
+.no-margin-bottom {
+	margin-bottom: 0 !important;
+}
+.no-margin-left {
+	margin-left: 0 !important;
+}
+
+
+/* ==========================================================================
+	valores para padding, baseados no layout do projeto
+========================================================================== */
+.pd-all-default {
+	padding:11px !important;
+}
+.pd-bottom-default {
+	padding-bottom:11px !important;
+}
+.pd-top-default {
+	padding-top:11px !important;
+}
+.pd-left-default {
+	padding-left:11px !important;
+}
+.pd-right-default {
+	padding-right:11px !important;
+}
+.no-padding {
+	padding: 0 !important;
+}
+.no-padding-top {
+	padding-top: 0 !important;
+}
+.no-padding-right {
+	padding-right: 0 !important;
+}
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
+.no-padding-left {
+	padding-left: 0 !important;
+}
+
+/* ==========================================================================
+	ocultando conteudo do elemento mantendo a acessibilidade
+========================================================================== */
+.hide-content {
+	display:block;
+	text-indent: -9999px;
+}
+.hide-element {
+	position:absolute;
+	left: -9999px;
+	top: -9999px;
+}
+
+/* ==========================================================================
+	posicionando os elementos
+========================================================================== */
+.float-left {
+	float:left!important;
+}
+.float-right {
+	float:right!important;
+}
+.no-float {
+	float:none!important;
+}
+
+.absolute {
+	position:absolute !important;
+}
+.relative {
+	position:relative !important;
+}
+
+/* ==========================================================================
+	propriedades de bloco
+========================================================================== */
+.block {
+	display:block !important;
+}
+.inline {
+	display:inline !important;
+}
+.inline-block {
+	display:inline-block !important;
+}
+.none {
+	display:none !important;
+}
+
+/* ==========================================================================
+	clear
+========================================================================== */
+
+.clear-right {
+	clear:right !important;
+}
+.clear-left {
+	clear:left !important;
+}
+.clear {
+	display:block !important;
+	clear:both !important;
+}
+
+/* ==========================================================================
+	bordas
+========================================================================== */
+.no-border-right {
+	border-right: none !important;
+}
+.no-border-left {
+	border-left: none !important;
+}
+.no-border-top {
+	border-top: none !important;
+}
+.no-border-bottom {
+	border-bottom: none !important;
+}
+.no-border {
+	border: none !important;
+}
+
+/* ==========================================================================
+	baseado no layout do projeto
+========================================================================== */
+.border-radius {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/* ==========================================================================
+	cursor
+========================================================================== */
+.cursor-default {
+	cursor: default;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.cursor-move {
+	cursor: move;
+}
+.cursor-help {
+	cursor: help;
+}
+.cursor-wait {
+	cursor: wait;
+}
+
+/* ==========================================================================
+	fonte, texto
+========================================================================== */
+.no-bold {
+	font-weight: normal !important;
+}
+.bold {
+	font-weight: bold !important;
+}
+.italic {
+	font-style: italic !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+
+.upper-case {
+	text-transform: uppercase !important;
+}
+
+/* ==========================================================================
+	diversos
+========================================================================== */
+.overflow {
+	overflow: hidden;
+}
+.scroll {
+	overflow: scroll;
+}
+.scroll-auto {
+	overflow: auto;
+}	
